@@ -2,6 +2,8 @@
 
 Create an embedable image that displays the number of visitors to a webpage.
 
+![](https://ht-ct.now.sh/counters/d1cb34d4-ec7d-40c7-bd38-e98932121ec2)
+
 ## TODO
 * [x] Design DB
   * Counters
