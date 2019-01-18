@@ -1,4 +1,4 @@
-function escapeHtml(text) {
+function escapeHtml(text = '') {
   const map = {
     '&': '&amp;',
     '<': '&lt;',
@@ -7,7 +7,7 @@ function escapeHtml(text) {
     '\'': '&#039;'
   };
 
-  return text.replace(/[&<>"']/g, (m) => map[m]);
+  return text.toString().replace(/[&<>"']/g, (m) => map[m]);
 }
 
 function generate({
