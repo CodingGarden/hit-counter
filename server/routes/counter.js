@@ -7,7 +7,7 @@ const counterSchema = require('../schemas/counter');
 const counterQueries = require('../queries/counter');
 const visitorQueries = require('../queries/visitor');
 const banQueries = require('../queries/ban');
-const { generate } = require('../lib/svg');
+const { generate, escapeHtml } = require('../lib/svg');
 
 const router = express.Router();
 
@@ -75,6 +75,7 @@ router.get('/:guid', async (req, res, next) => {
 
 router.post('/', async (req, res, next) => {
   try {
+    req.body.fontFamily = escapeHtml(req.body.fontFamily || '');
     const counter = await counterSchema.validate(req.body, {
       stripUnknown: true,
     });
