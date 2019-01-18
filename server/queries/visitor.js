@@ -8,10 +8,11 @@ module.exports = {
   async findById(id) {
     return db('visitor').where({ id }).first();
   },
-  async update(id, visitCount) {
+  async update(id, visitCount, ip) {
     return db('visitor').where({ id }).update({
       visitCount,
       lastVisited: new Date(),
+      ip
     });
   },
   async getCountByCounterId(counterId) {

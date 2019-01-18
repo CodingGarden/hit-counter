@@ -1,7 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="100px"
+  width="350px"
   height="35px"
   preserveAspectRatio="xMidYMid meet">
   <rect
@@ -16,6 +16,6 @@
     dominant-baseline="middle"
     text-anchor="middle"
     style="fill:lime;font-family:Courier;font-size:20px;">
-    000042
+    Site moved to ht-ct.now.sh
   </text>
 </svg>
