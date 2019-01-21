@@ -2,6 +2,14 @@
 
 Create an embedable image that displays the number of visitors to a webpage.
 
+## Unique Visitors
+
+![](https://ht-ct.now.sh/counters/d1cb34d4-ec7d-40c7-bd38-e98932121ec2?unique=true)
+
+## Total Visits
+
+![](https://ht-ct.now.sh/counters/d1cb34d4-ec7d-40c7-bd38-e98932121ec2)
+
 ## TODO
 * [x] Design DB
   * Counters
